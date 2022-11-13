@@ -1,6 +1,17 @@
 from interpreters import *
 from callbacks import *
-#import dearpygui.dearpygui as dpg #unnecessary as long as callbacks has it (callbacks has it to create windows as callbacks
+from simple_graph_callbacks import *
+# import dearpygui.dearpygui as dpg #unnecessary as long as
+# callbacks has it (callbacks has it to create windows as callbacks
+# TODO: manage comments better, especially those describing what methods do
+# TODO: continue refractoring until everything is readable
+# TODO: read file into visual component, but establish solver objects from read file
+# TODO: integrate saving
+# TODO: callbacks is getting too large, separate into multiple files
+# TODO: comment what is happening before I forgor again
+# TODO: find some purpose to the main screen
+# TODO: Integrate edge deletion in the simple graph callbacks
+# TODO: Change simple graph solvers so it actually outputs on visual screen
 
 
 def main():

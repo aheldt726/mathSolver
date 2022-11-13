@@ -1,5 +1,5 @@
 import sage.all as sage
-from solverObjects import *
+from solver_objects import *
 
 def determine_vars(string):
     """
@@ -122,8 +122,7 @@ def get_constant(string):
     else:
         return int(cnst)
 
-def constructGraph(nodes):
-    None
+
 
 
 
